@@ -22,6 +22,7 @@
   },
   "devDependencies": {
     "@react-native-community/cli": "latest",
+    "gh-pages": "^6.2.0",
     "react-native": "^0.72.0",
     "react-native-cli": "^2.0.1"
   },
