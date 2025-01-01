@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/smart-shoe-project/static/css/main.23df9346.css",
+    "main.js": "/smart-shoe-project/static/js/main.c0be9300.js",
+    "static/js/488.467c4957.chunk.js": "/smart-shoe-project/static/js/488.467c4957.chunk.js",
+    "static/media/shoes.mp4": "/smart-shoe-project/static/media/shoes.ba4080678bfbeca2aec5.mp4",
+    "index.html": "/smart-shoe-project/index.html",
+    "main.23df9346.css.map": "/smart-shoe-project/static/css/main.23df9346.css.map",
+    "main.c0be9300.js.map": "/smart-shoe-project/static/js/main.c0be9300.js.map",
+    "488.467c4957.chunk.js.map": "/smart-shoe-project/static/js/488.467c4957.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23df9346.css",
+    "static/js/main.c0be9300.js"
+  ]
+}
