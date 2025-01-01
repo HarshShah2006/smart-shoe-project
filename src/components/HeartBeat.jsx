@@ -1,0 +1,58 @@
+import React from 'react'
+import './HeartBeat.css';
+import { Link } from 'react-router-dom';
+
+const HeartBeat = () => {
+  return (
+    <div style={{backgroundColor:'black'}}>
+        <div>
+        <span style={{color:'#B2D041',fontFamily: 'Roboto, sans-serif'}}>SmartShoe</span>
+        </div>
+       <svg style={{marginTop:'50%',marginLeft:'40%'}}  xmlns="http://www.w3.org/2000/svg" width="66" height="66" fill="#B2D041" class="bi bi-heart" viewBox="0 0 16 16">
+          <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+          </svg><br/>
+          <div style={{color:'#B2D041'}}>
+          <span style={{fontSize:'60px',marginLeft:'41%',marginTop:'50px'}}>81</span><span>BPM</span>
+          </div>
+          <div className="half" style={{marginTop:'-100px'}}></div><br/>
+          <div className='min'>
+          <span>MIN</span>
+          </div>
+          <div>
+          <span style={{fontSize:'30px',marginLeft:'10px',marginTop:'50px',color:'#B2D041'}}>81</span><span style={{color:'#B2D041'}}>BPM</span>
+          </div>
+          <div className='max'>
+          <span>MAX</span>
+          </div>
+          <div>
+          <span style={{fontSize:'30px',marginLeft:'77%',marginBottom:'50px',color:'#B2D041'}}>101</span><span style={{color:'#B2D041'}}>BPM</span>
+          </div>
+          <div style={{marginTop:'-5%',marginLeft:'50px'}}>
+          <div>
+            <div className='bottom' style={{marginLeft:'-50px'}}>
+           <Link to="/home"> <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="#B2D041" class="bi bi-house-door" viewBox="0 0 16 16">
+          <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4z"/>
+          </svg></Link>
+           <svg style={{marginLeft:'50px'}} xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="#B2D041" class="bi bi-bar-chart" viewBox="0 0 16 16">
+          <path d="M4 11H2v3h2zm5-4H7v7h2zm5-5v12h-2V2zm-2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM6 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm-5 4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1z"/>
+          </svg>&emsp;
+          <svg style={{marginLeft:'50px'}}  xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="#B2D041" class="bi bi-heart" viewBox="0 0 16 16">
+          <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+          </svg>&emsp;
+          <svg style={{marginLeft:'50px'}} xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="#B2D041" class="bi bi-music-note-beamed" viewBox="0 0 16 16">
+          <path d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13s1.12-2 2.5-2 2.5.896 2.5 2m9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2"/>
+          <path fill-rule="evenodd" d="M14 11V2h1v9zM6 3v10H5V3z"/>
+          <path d="M5 2.905a1 1 0 0 1 .9-.995l8-.8a1 1 0 0 1 1.1.995V3L5 4z"/>
+         </svg>
+        <svg style={{marginLeft:'50px'}} xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="#B2D041" class="bi bi-gear" viewBox="0 0 16 16">
+        <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492M5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0"/>
+        <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115z"/>
+       </svg>
+           </div>
+          </div>
+          </div>
+    </div>
+  )
+}
+
+export default HeartBeat;

@@ -1,0 +1,31 @@
+body{
+    background-color:black;
+}
+.half {
+    width: 75%; /* Make the line half of the page width */
+    height: 2px; /* Height of the line */
+    background-color: grey; /* Set the line color to white */
+    margin: 0 auto; /* Center the line horizontally */
+    position: absolute; /* Position it within the viewport */
+    top: 78%; /*Place it in the middle of the screen */
+    margin-top: 550px;
+    left: 0;
+    right: 0;
+}
+.min{
+    color: #B2D041;
+    margin-top: 30%;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.max{
+    color: #B2D041;
+    margin-top: 0%;
+    font-size: 20px;
+    margin-left: 85%;
+    margin-top: -20%;
+}
+.bottom{
+    margin-top: 79px;
+    background-color: #292726;
+}

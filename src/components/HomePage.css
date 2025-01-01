@@ -1,0 +1,47 @@
+.body{
+    background-color:black;
+}
+h1{
+    color:#B2D041;
+}
+.walkingicon{
+    margin-left: 44%;
+    margin-top: 6%;
+}
+.steps{
+    margin-left: 40%;
+    margin-top: 20%;
+}
+.halfline {
+    width: 75%; /* Make the line half of the page width */
+    height: 2px; /* Height of the line */
+    background-color: grey; /* Set the line color to white */
+    margin: 0 auto; /* Center the line horizontally */
+    position: absolute; /* Position it within the viewport */
+    top: 38%; /* Place it in the middle of the screen */
+    left: 0;
+    right: 0;
+}
+.card{
+    border: 1px solid #B2D041;
+    border-radius:20%;
+    background: #292726;
+    color: #B2D041;
+}
+.halfline2{
+    width: 75%; /* Make the line half of the page width */
+    height: 2px; /* Height of the line */
+    background-color: grey; /* Set the line color to white */
+    margin: 0 auto; /* Center the line horizontally */
+    position: absolute; /* Position it within the viewport */
+    top: 83%; /* Place it in the middle of the screen */
+    left: 0;
+    right: 0;
+}
+.footer{
+    margin-top: 70px;
+    background-color: #292726;
+}
+.link{
+    color: #292726;
+}

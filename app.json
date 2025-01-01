@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "c0145b71-bf84-4fad-8873-5097ba14b752"
+      }
+    },
+    "android": {
+      "package": "com.harshshah2006.smartshoe"
+    }
+  }
+}

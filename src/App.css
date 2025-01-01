@@ -1,0 +1,46 @@
+/* Style for the entire body */
+.body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden; /* Prevent scrolling when the video is playing */
+  position: relative; /* Ensure child elements can be positioned absolutely */
+}
+
+/* Make the image container cover the full screen */
+.image-container {
+  position: absolute; /* Position video relative to the body */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* Hide any content that overflows */
+  z-index: 0; /* Ensure video is behind content */
+}
+
+/* Make the video cover the entire screen while maintaining its aspect ratio */
+.fullscreen-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures video covers the full screen */
+  z-index: -1; /* Places video behind other content */
+}
+
+/* Main content on top of the video */
+.main-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  z-index: 1; /* Ensure content appears on top of the video */
+}
+
+/* Hide the video on home page */
+.home-page .fullscreen-video {
+  display: none;
+}
