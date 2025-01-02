@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/smart-shoe-project/static/css/main.23df9346.css",
-    "main.js": "/smart-shoe-project/static/js/main.77285a36.js",
+    "main.css": "/smart-shoe-project/static/css/main.46a3357a.css",
+    "main.js": "/smart-shoe-project/static/js/main.de44eaeb.js",
     "static/js/488.467c4957.chunk.js": "/smart-shoe-project/static/js/488.467c4957.chunk.js",
     "static/media/shoes.mp4": "/smart-shoe-project/static/media/shoes.ba4080678bfbeca2aec5.mp4",
     "index.html": "/smart-shoe-project/index.html",
-    "main.23df9346.css.map": "/smart-shoe-project/static/css/main.23df9346.css.map",
-    "main.77285a36.js.map": "/smart-shoe-project/static/js/main.77285a36.js.map",
+    "main.46a3357a.css.map": "/smart-shoe-project/static/css/main.46a3357a.css.map",
+    "main.de44eaeb.js.map": "/smart-shoe-project/static/js/main.de44eaeb.js.map",
     "488.467c4957.chunk.js.map": "/smart-shoe-project/static/js/488.467c4957.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.23df9346.css",
-    "static/js/main.77285a36.js"
+    "static/css/main.46a3357a.css",
+    "static/js/main.de44eaeb.js"
   ]
 }
